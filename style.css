@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    display: inline-block;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav_logo {
+    position: relative;
+    right: 10px;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    right: 220px;
+}
+
+.nav_menu>a {
+    text-decoration: none;
+    color: darkgray;
+    font-size: 18px;
+}
+
+.nav_menu>a:hover {
+    color: black;
+    font-weight: 800;
+}
+
+.nav_menu>a:focus {
+    color: black;
+    font-weight: 500;
+}
+
+.nav_menu>a:active {
+    color: gray;
+    font-weight: 500;
+}
+
+.nav_link {
+    font-family: 'Roboto';
+    width: 90px;
+    height: 19px;
+    top: 43px;
+    left: 229px;
+}
+
+.button>button {
+    padding: 15px 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.button>button:hover {
+    background-color: #ffb10994;
+    color: white;
+}
+
+.button>button:focus {
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+
+.hero_aria {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:wght@400;500&display=swap');
+
+.hero-text>h1 {
+    font-size: 45px;
+    position: relative;
+    right: 320px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:wght@400;500&display=swap');
+
+.hero-text>p {
+    font-size: 17px;
+    position: relative;
+    color: #150C01;
+    right: 320px;
+    margin-top: -20px;
+    line-height: 28px;
+}
+
+.image {
+    position: absolute;
+    height: 370px;
+    width: 601px;
+    left: 683px;
+    top: 101px;
+    border-radius: 0px;
+}
+
+.button-1 {
+    position: relative;
+    right: 300px;
+    padding: 20px 45px;
+    border-radius: 3px;
+    background-color: darkorange;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.button-1:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+.button-1:focus {
+    background-color: #000000;
+    color: white;
+    transition: 0.7s;
+}
+
+.button-2 {
+    position: relative;
+    right: 300px;
+    padding: 18px 45px;
+    border-radius: 3px;
+    background-color: white;
+    border-color: #dbdbdb77;
+    text-decoration: none;
+    color: darkorange;
+}
+
+.button-2:hover {
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.button-2:focus {
+    background-color: #000000;
+    color: white;
+    border: none;
+    transition: 0.7s;
+}
+
+.about-us {
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mask-group>img {
+    position: relative;
+    left: 40px;
+    border-radius: 15px;
+    width: 400px;
+    height: 350px;
+}
+
+.group-92 {
+    position: relative;
+    right: 105px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:wght@400;500&display=swap');
+
+.group-92>h5 {
+    margin-top: -40px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    color: #ff7b00;
+}
+
+.group-92>h3 {
+    margin-top: -14px;
+    font-family: 'Philosopher';
+    font-size: 30px;
+}
+
+.group-92>p {
+    margin-top: -10px;
+    line-height: 30px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.button-3 {
+    padding: 12px 35px;
+    border-radius: 3px;
+    background-color: darkorange;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.button-3:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.button-3:focus {
+    background-color: #000000;
+    color: white;
+    transition: 0.7s;
+}
+
+.menu {
+    margin-top: 150px;
+}
+
+.ourtext {
+    text-align: center;
+}
+
+.ourtext>h5 {
+    margin-top: -40px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    color: #ff7b00;
+}
+
+.ourtext>span h3 {
+    font-family: 'Philosopher';
+    margin-top: -15px;
+    font-size: 25px;
+}
+
+.ourtext>span p {
+    font-family: 'Roboto';
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.mask-columns {
+    margin-top: 150px;
+    columns: 3;
+}
+
+.mask-group-2>img {
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.mask-text {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+}
+
+.mask-text-1 {
+    position: relative;
+    left: 22px;
+    font-size: 30px;
+}
+
+.mask-text-2 {
+    position: relative;
+    left: 140px;
+    font-size: 30px;
+}
+
+.mask-text-3 {
+    position: relative;
+    left: 22px;
+    font-size: 30px;
+}
+
+.mask-text-4 {
+    position: relative;
+    left: 32px;
+    font-size: 30px;
+}
+
+.mask-text-5 {
+    position: relative;
+    left: 22px;
+    font-size: 30px;
+}
+
+.mask-text-6 {
+    position: relative;
+    left: 220px;
+    font-size: 30px;
+}
+
+.mask-text-7 {
+    position: relative;
+    left: 22px;
+    font-size: 30px;
+}
+
+.mask-text-8 {
+    position: relative;
+    left: 160px;
+    font-size: 30px;
+}
+
+.mask-text-9 {
+    position: relative;
+    left: 22px;
+    top: -8px;
+    font-size: 30px;
+}
+
+.mask-text-10 {
+    position: relative;
+    left: 215px;
+    font-size: 30px;
+}
+
+.mask-text-11 {
+    position: relative;
+    left: 22px;
+    font-size: 30px;
+}
+
+.mask-text-12 {
+    position: relative;
+    left: 70px;
+    font-size: 30px;
+}
+
+.mask-small-text {
+    position: relative;
+    left: 22px;
+    font-size: 20px;
+    opacity: 0.7;
+    margin-top: -20px;
+}
+
+.mask-testimonials>img {
+    position: relative;
+    left: 22px;
+}
+.mask-testimonials>span img{
+    position: relative;
+    left: 200px;
+    top: -18px;
+    height: 20px;
+}
